@@ -131,7 +131,7 @@ class IFChatPrompt:
         self.assistant = "Cortana"
         self.comfy_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         self.documents_dir = os.path.join(self.comfy_dir, "input", "IF_AI", "documents")
-        self.presets_dir = os.path.join(self.comfy_dir, "input", "IF_AI", "presets")
+        self.presets_dir = os.path.join(self.comfy_dir, "custom_nodes", "ComfyUI-IF_AI_tools", "IF_AI", "presets")
         self.assistants_file = os.path.join(self.presets_dir, "assistants.json")
         self.assistants = self.load_presets(self.assistants_file)
         self.neg_prompts_file = os.path.join(self.presets_dir, "neg_prompts.json")
