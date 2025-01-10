@@ -11,7 +11,7 @@ app.registerExtension({
         }
 
         const engineWidget = this.widgets.find((w) => w.name === "engine");
-        const modelWidget = this.widgets.find((w) => w.name === "selected_model");
+        const modelWidget = this.widgets.find((w) => w.name === "model");
         const baseIpWidget = this.widgets.find((w) => w.name === "base_ip");
         const portWidget = this.widgets.find((w) => w.name === "port");
 
